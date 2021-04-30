@@ -11,5 +11,3 @@ Singleton Pattern comes into play where having multiple object would lead to cha
 We need to keep oour implementation thread safe else it might happen that two threads are using different instances of our Singleton class. The most simple approach would be to keep a lock in the `getInstance()` method, hence it can be accessed by only one thread at a time.
 
 In our implementation we are using Go's [`func (*Once) Do(f func())`](https://golang.org/pkg/sync/#Once.Do). Do calls the function `f` if and only if `Do` is being called for the first time for this instance of `Once`. Hence, in this way we ensure that our Singleton's class object is created only once even when multiple go routines are calling it.
-
-git remote add origin https://github.com/susg/design-patterns.git
