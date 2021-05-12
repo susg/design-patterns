@@ -7,3 +7,6 @@
 # Output of the go coverage tool
 *.out
 *.html
+
+# Goland files
+.idea
