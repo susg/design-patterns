@@ -1,11 +1,10 @@
 package observer
 
-// TODO: Think of a better way to check if news is updated
-var updated = 0
+import "fmt"
 
 // Observer Interface
 type Subscriber interface {
-	Update(string) string
+	Update(string) int
 }
 
 // Concrete Observer-1
@@ -19,9 +18,9 @@ func NewSmsSubscriber(np Publisher) Subscriber {
 	return s
 }
 
-func (s SmsSubscriber) Update(news string) string {
-	updated += 1
-	return news
+func (s SmsSubscriber) Update(news string) int {
+	fmt.Println("SmsSubscriber : Update :  ", news)
+	return 1
 }
 
 // Concrete Observer-2
@@ -35,7 +34,7 @@ func NewEmailSubscriber(np Publisher) Subscriber {
 	return e
 }
 
-func (e EmailSubscriber) Update(news string) string {
-	updated += 1
-	return news
+func (e EmailSubscriber) Update(news string) int {
+	fmt.Println("EmailSubscriber : Update :  ", news)
+	return 1
 }

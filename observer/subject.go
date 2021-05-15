@@ -4,7 +4,7 @@ package observer
 type Publisher interface {
 	RegisterSubscriber(Subscriber)
 	RemoveSubscriber(Subscriber)
-	NotifySubscribers()
+	NotifySubscribers() int
 }
 
 // Concrete Subject
@@ -33,13 +33,14 @@ func (np *NewsPublisher) RemoveSubscriber(s Subscriber) {
 	}
 }
 
-func (np NewsPublisher) NotifySubscribers() {
+func (np NewsPublisher) NotifySubscribers() (notifiedCount int) {
 	for _, subscriber := range np.Subscribers {
-		subscriber.Update(np.News)
+		notifiedCount += subscriber.Update(np.News)
 	}
+	return
 }
 
-func (np NewsPublisher) UpdateNews(n string) {
+func (np *NewsPublisher) UpdateNews(n string) int {
 	np.News = n
-	np.NotifySubscribers()
+	return np.NotifySubscribers()
 }

@@ -26,7 +26,8 @@ func TestNotifySubscribers(t *testing.T) {
 	_ = NewSmsSubscriber(np)
 	_ = NewEmailSubscriber(np)
 	news := "news update"
-	np.UpdateNews(news)
+	val := np.UpdateNews(news)
 
-	assert.Equal(t, 2, updated)
+	assert.Equal(t, 2, val)
+	assert.Equal(t, news, np.News)
 }
