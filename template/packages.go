@@ -5,12 +5,13 @@ import "fmt"
 // malaysiaPackage is `trip` subclass which implements `iTrip`
 type malaysiaPackage struct {
 	trip
-	source string
+	source     string
+	restNeeded bool
 }
 
-func newMalaysiaPackage(s string) malaysiaPackage {
+func newMalaysiaPackage(s string, rn bool) malaysiaPackage {
 	t := trip{}
-	mp := malaysiaPackage{t, s}
+	mp := malaysiaPackage{t, s, rn}
 	mp.iTrip = mp
 	return mp
 }
@@ -32,18 +33,19 @@ func (p malaysiaPackage) setVehicleType() string {
 }
 
 func (p malaysiaPackage) isRestNeeded() bool {
-	return false
+	return p.restNeeded
 }
 
 // dubaiPackage is `trip` subclass which implements `iTrip`
 type dubaiPackage struct {
 	trip
-	source string
+	source     string
+	restNeeded bool
 }
 
-func newDubaiPackage(s string) dubaiPackage {
+func newDubaiPackage(s string, rn bool) dubaiPackage {
 	t := trip{}
-	dp := dubaiPackage{t, s}
+	dp := dubaiPackage{t, s, rn}
 	dp.iTrip = dp
 	return dp
 }
@@ -65,5 +67,5 @@ func (p dubaiPackage) setVehicleType() string {
 }
 
 func (p dubaiPackage) isRestNeeded() bool {
-	return true
+	return p.restNeeded
 }
