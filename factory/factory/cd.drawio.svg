@@ -1,0 +1,71 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="391px" height="226px" viewBox="-0.5 -0.5 391 226" content="&lt;mxfile&gt;&lt;diagram id=&quot;LFV3DSX1mZkeUt1DnOiR&quot; name=&quot;Page-1&quot;&gt;7VhNb9swDP01AbZLEduJmx4bp9sOLVYsh61H1VJsobJoyEqT9NePsiV/xGlntGm3AQGMIKRISuR7omSPgijbflUkT2+AMjHyx3Q7ChYj3w+nPv4axc4qZuNKkShOK5XXKJb8iVmlM1tzyoqOoQYQmuddZQxSslh3dEQp2HTNViC6s+YkYT3FMiair/3JqU4r7cw/b/TfGE9SN7MXXlQjGXHGNpMiJRQ2LVVwNQoiBaCrf9k2YsLUztWl8vvyzGi9MMWkHuJggXgkYm1zixQjGpRdnt65nIsNzwSRKM1XIPXSjoxRjlMu6DXZwdrMWWgSPzhpnoLiT2hPBA55qMBhpS2kfmiicSEiEDhlsKBsRdai67c08exMihXoeevS8/ZUN2TbMbwmhXZrBCFIXvD7ctXGMSMq4XIOWkNmjWwxmNJs+2xBvRompDeDjGm1QxPrEEwtspbajtmbhifexOrSFkfOZ5aelppJHblBD/9YAA+DGfTAHPlzw28SI6K7G6ZToJ8+96DFbHWJjIIH5qCQUGF9EB0ieCJRI9jKiKZiHLfHpVVryE28nMRcJtelzWLSaH7YtI0K0Hclyi2QckqZNOCBJprc1/zKgUtd1mU6xwerF43PpqMprj1C2WtkfIy50hFITIfwEjSGNNgwQ4VhCPuHEbaIImkHIers3oLo5BlEifyeM0U0B3nC8414usPoI/AM++0WZKyYZqe2e9S2608H9l2H/ltQPT/13aPs0/Cf6bvuonlgo94qoGu8U5426qs2qjf+ixvV65+nJziPCufQ6+5R0Jwd6Lt7MDJJL80LH0r3Akxh55QUKaO2Kjj+hZsZyoKgZKHyfAOKzkRth4v7Zcyw4Vnxrj222NYxjLRz0pbrlhtKd62RxskIuw4sjPbeQfdAwURhrWLWuVog3RL28r2njU1osVFM4G3ysTvjIXBsuFtzNDQ08MMuDerj2IWoVmq92u+je4Em/h8CVfn1ApVcqXMcRp+LE30a+rgTr82fql1+CIEmwd6xEL6WQHuBvHD2XgTy+5eElwgEeXnJaijjDaOM1ybM+MyfDuVMmzHW7f17jjf+MM78B00HxeZbXmXefBANrn4D&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <clipPath id="mx-clip-254-31-132-26-0">
+            <rect x="254" y="31" width="132" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-254-57-132-26-0">
+            <rect x="254" y="57" width="132" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-254-201-132-26-0">
+            <rect x="254" y="201" width="132" height="26"/>
+        </clipPath>
+    </defs>
+    <g>
+        <path d="M 250 26 L 250 0 L 390 0 L 390 26" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 250 26 L 250 78 L 390 78 L 390 26" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 250 26 L 390 26" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="319.5" y="17.5">
+                Creator
+            </text>
+        </g>
+        <rect x="250" y="26" width="140" height="26" fill="rgb(255, 255, 255)" stroke="none" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-254-31-132-26-0)" font-size="12px">
+            <text x="255.5" y="43.5">
+                + factoryMethod()
+            </text>
+        </g>
+        <rect x="250" y="52" width="140" height="26" fill="rgb(255, 255, 255)" stroke="none" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-254-57-132-26-0)" font-size="12px">
+            <text x="255.5" y="69.5">
+                + anOperation()
+            </text>
+        </g>
+        <path d="M 250 196 L 250 170 L 390 170 L 390 196" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 250 196 L 250 222 L 390 222 L 390 196" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 250 196 L 390 196" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="319.5" y="187.5">
+                ConcreteCreator
+            </text>
+        </g>
+        <rect x="250" y="196" width="140" height="26" fill="rgb(255, 255, 255)" stroke="none" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-254-201-132-26-0)" font-size="12px">
+            <text x="255.5" y="213.5">
+                + factoryMethod()
+            </text>
+        </g>
+        <path d="M 0 196 L 0 170 L 140 170 L 140 196" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 196 L 0 222 L 140 222 L 140 196" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 196 L 140 196" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="69.5" y="187.5">
+                ConcreteProduct
+            </text>
+        </g>
+        <path d="M 0 26 L 0 0 L 140 0 L 140 26" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 26 L 0 52 L 140 52 L 140 26" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 26 L 140 26" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="69.5" y="17.5">
+                Product
+            </text>
+        </g>
+        <path d="M 320 170 L 320 92.12" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="none"/>
+        <path d="M 320 79.12 L 326.5 92.12 L 313.5 92.12 Z" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 70 170 L 70 66.12" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="none"/>
+        <path d="M 70 53.12 L 76.5 66.12 L 63.5 66.12 Z" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 250 183 L 142.24 183" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 154.12 176.5 L 141.12 183 L 154.12 189.5" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+    </g>
+</svg>
