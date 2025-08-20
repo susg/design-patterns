@@ -1,4 +1,4 @@
-# DESIGN PATTERNS |  [![Go](https://github.com/susg/design-patterns/actions/workflows/go.yml/badge.svg)](https://github.com/susg/design-patterns/actions/workflows/go.yml) [![CodeFactor](https://www.codefactor.io/repository/github/susg/design-patterns/badge)](https://www.codefactor.io/repository/github/susg/design-patterns) [![codecov](https://codecov.io/gh/susg/design-patterns/branch/master/graph/badge.svg?token=3AVWKA89AJ)](https://codecov.io/gh/susg/design-patterns) [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/organization/repository)
+# DESIGN PATTERNS |  [![Go](https://github.com/susg/design-patterns/actions/workflows/go.yml/badge.svg)](https://github.com/susg/design-patterns/actions/workflows/go.yml) [![CodeFactor](https://www.codefactor.io/repository/github/susg/design-patterns/badge)](https://www.codefactor.io/repository/github/susg/design-patterns) [![codecov](https://codecov.io/gh/susg/design-patterns/branch/master/graph/badge.svg?token=3AVWKA89AJ)](https://codecov.io/gh/susg/design-patterns)
 
 Implementation of commonly used design patterns in Go.
 
